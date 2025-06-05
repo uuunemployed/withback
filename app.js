@@ -35,5 +35,5 @@ function addToCart(product) {
 
 function updateCartButton() {
   const count = cart.length;
-  document.getElementById('cart-button').innerText = `Кошики (${count + 1})`;
-}
+  document.getElementById('cart-button').innerText = `Кошики (${count})`;
+} 
